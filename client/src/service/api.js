@@ -3,7 +3,7 @@ import { getAccessToken } from "../utils/token";
 
 // Create Axios instance
 const axiosInstance = axios.create({
-  baseURL: "http://localhost:5000", // Replace with your API URL
+  baseURL: "https://e-commerce-p-juzy.onrender.com", // Replace with your API URL
   withCredentials: true, // important to send cookies (refresh token)
 });
 
